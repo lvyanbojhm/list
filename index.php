@@ -19,7 +19,7 @@ if (version_compare(PHP_VERSION, '5.3.0', '<')) {
 define('APP_DEBUG', true);
 
 // 定义应用目录
-define('APP_PATH', '../Application/');
+define('APP_PATH', './Application/');
 
 //custom define
 define('PAGE_SIZE', 20);
